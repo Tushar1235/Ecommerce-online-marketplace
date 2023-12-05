@@ -4,6 +4,38 @@
 
 Welcome to the backend repository of the Ecommerce Online Marketplace project! This project is developed using Spring Boot 3, Spring Data JPA, MySQL database, Stripe for payment integration, and features Swagger for API documentation.
 
+## Key Functionalities
+
+### 1. User Authentication
+
+- **Signup:** Users can create a new account by providing necessary details like username, email, and password.
+
+- **Signin:** Existing users can sign in using their credentials to access personalized features.
+
+### 2. Shopping Cart
+
+- **Add to Cart:** Users can add products to their shopping cart for easy checkout.
+
+- **Remove from Cart:** Items can be removed from the cart if the user changes their mind.
+
+### 3. Wishlist
+
+- **Add to Wishlist:** Users can add products to their wishlist for future consideration or as a bookmark.
+
+- **Remove from Wishlist:** Items can be removed from the wishlist.
+
+### 4. Product Management
+
+- **View Products:** Users can browse and view details about available products.
+
+- **Search Products:** A search functionality is available to help users find specific products.
+
+### 5. Checkout and Payment
+
+- **Secure Checkout:** Users can proceed to a secure checkout process.
+
+- **Payment Integration:** Payments are processed through Stripe for a seamless and secure transaction experience.
+
 ## Technologies Used
 
 - **Spring Boot 3:** A powerful framework for building Java-based enterprise applications, providing a robust and efficient platform for our Ecommerce backend.
